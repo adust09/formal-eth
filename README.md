@@ -32,6 +32,9 @@ Formal verification is a mathematical approach to proving the correctness of sma
 | Staking deposit contract | L1 | [✅](https://github.com/runtimeverification/deposit-contract-verification) | K Framework |
 | [Cairo (language)](https://github.com/starkware-libs/cairo-lang) | zkVM (language) | [✅](https://github.com/starkware-libs/formal-proofs) | Lean |
 | [Jolt](https://github.com/a16z/jolt) | zkVM | [🏗️ WIP](https://github.com/GaloisInc/zk-lean) | Lean |
+| [EIP1559](https://ieeexplore.ieee.org/document/9842730) | EIP | [✅](https://ieeexplore.ieee.org/document/9842730) | TBD |
+| [Intmax](https://github.com/InternetMaximalism) | L2 | [✅](https://github.com/NethermindEth/FVIntmax) | Lean |
+
 
 ### Application
 
@@ -40,6 +43,7 @@ Formal verification is a mathematical approach to proving the correctness of sma
 | [Uniswap V3](https://github.com/Uniswap/v3-core) | DEX | ✅ | Isabelle/HOL based custom tool |
 | [Uniswap V4](https://github.com/Uniswap/v4-core) | DEX | [✅](https://certora.cdn.prismic.io/certora/Z4UNepbqstJ99YI5_InformedeSeguridadUniswapV4.pdf) | Certora Prover |
 | Compound V3 | Lending | [✅](https://certora.cdn.prismic.io/certora/e7ca6508-fad8-4a41-8588-b3312d8b750e_Compound+Report.pdf) | Certora Prover |
+| [DJED](https://djed.one/)  | Stablecoin | [✅](https://iohk.io/en/research/library/papers/djed-a-formally-verified-crypto-backed-pegged-algorithmic-stablecoin/) | - |
 
 
 ## Formal Verification Tools
@@ -56,24 +60,6 @@ Formal verification is a mathematical approach to proving the correctness of sma
 - **[HEVM](https://github.com/dapphub/dapptools/tree/master/src/hevm)** - Ethereum Virtual Machine for symbolic execution and formal verification
 - **[Manticore](https://github.com/trailofbits/manticore)** - Symbolic execution tool for analysis of smart contracts
 - **[Mythril](https://github.com/ConsenSys/mythril)** - Security analysis tool for Ethereum smart contracts
-
-## Verified Projects
-
-### Core Infrastructure
-
-- **[ENS (Ethereum Name Service)](https://ens.domains/)** - Formally verified using K Framework
-- **[Ethereum 2.0 Deposit Contract](https://github.com/ethereum/deposit_contract)** - Verified by Runtime Verification
-- **[EIP-1559](https://eips.ethereum.org/EIPS/eip-1559)** - Fee market mechanism with formal analysis
-
-### DeFi Protocols
-
-- **[DJED Stablecoin](https://djed.one/)** - Formally verified algorithmic stablecoin
-- **[Sarcophagus Protocol](https://sarcophagus.io/)** - Verified using Certora
-
-### Layer 2 Solutions
-
-- **[Polygon Hermez](https://hermez.io/)** - ZK-rollup with formal verification components
-- **[StarkNet](https://starknet.io/)** - STARK-based rollup with mathematical proofs
 
 ## Security Reports
 

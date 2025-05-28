@@ -31,13 +31,6 @@ Formal verification is a mathematical approach to proving the correctness of sma
 - **[Manticore](https://github.com/trailofbits/manticore)** - Symbolic execution tool for analysis of smart contracts
 - **[Mythril](https://github.com/ConsenSys/mythril)** - Security analysis tool for Ethereum smart contracts
 
-### zkVM Verification Tools
-
-- **[RISC Zero Verifier](https://github.com/risc0/risc0)** - Formal verification framework for RISC-V based zkVM
-- **[Ceno Verifier](https://github.com/scroll-tech/ceno)** - Verification tools for non-uniform zkVM computations
-- **[zkVM Constraint Systems](https://github.com/matter-labs/era-zkvm-opcodes)** - Formal constraint system verification for zkVM opcodes
-- **[Plonky2 zkVM](https://github.com/0xPolygonZero/plonky2)** - Fast recursive proof system with formal verification components
-
 ## Verified Projects
 
 ### Core Infrastructure

@@ -6,14 +6,29 @@ Formal verification is a mathematical approach to proving the correctness of sma
 
 ## Contents
 
-- [Formal Verification Tools](#formal-verification-tools)
-- [Verified Projects](#verified-projects)
-- [Security Reports](#security-reports)
-- [Academic Research](#academic-research)
-- [Vulnerability Detection](#vulnerability-detection)
-- [Educational Resources](#educational-resources)
-- [Contributing](#contributing)
-- [License](#license)
+- [Awesome Ethereum Formal Verification ](#awesome-ethereum-formal-verification-)
+  - [Contents](#contents)
+  - [Projects](#projects)
+    - [Cryptography](#cryptography)
+    - [Protocol](#protocol)
+    - [Application](#application)
+  - [Formal Verification Tools](#formal-verification-tools)
+    - [Production-Ready Tools](#production-ready-tools)
+    - [Emerging Tools](#emerging-tools)
+  - [Security Reports](#security-reports)
+    - [Audit Portfolios](#audit-portfolios)
+  - [Academic Research](#academic-research)
+    - [Research Projects](#research-projects)
+    - [Academic Papers](#academic-papers)
+  - [Vulnerability Detection](#vulnerability-detection)
+    - [Specific Vulnerability Research](#specific-vulnerability-research)
+    - [Common Vulnerability Patterns](#common-vulnerability-patterns)
+  - [Educational Resources](#educational-resources)
+    - [Tutorials and Guides](#tutorials-and-guides)
+  - [Contributing](#contributing)
+    - [Guidelines](#guidelines)
+    - [How to Contribute](#how-to-contribute)
+  - [License](#license)
 
 ## Projects
 ### Cryptography
@@ -32,9 +47,8 @@ Formal verification is a mathematical approach to proving the correctness of sma
 | Staking deposit contract | L1 | [✅](https://github.com/runtimeverification/deposit-contract-verification) | K Framework |
 | [Cairo (language)](https://github.com/starkware-libs/cairo-lang) | zkVM (language) | [✅](https://github.com/starkware-libs/formal-proofs) | Lean |
 | [Jolt](https://github.com/a16z/jolt) | zkVM | [🏗️ WIP](https://github.com/GaloisInc/zk-lean) | Lean |
-| [EIP1559](https://ieeexplore.ieee.org/document/9842730) | EIP | [✅](https://ieeexplore.ieee.org/document/9842730) | TBD |
-| [Intmax](https://github.com/InternetMaximalism) | L2 | [✅](https://github.com/NethermindEth/FVIntmax) | Lean |
-
+| [EIP1559](https://eips.ethereum.org/EIPS/eip-1559) | EIP | [✅](https://ieeexplore.ieee.org/document/9842730) | UPPAAL |
+| [Intmax2](https://github.com/InternetMaximalism/intmax2) | Zk Rollup | [✅](https://github.com/NethermindEth/FVIntmax) | Lean |
 
 ### Application
 
@@ -43,7 +57,7 @@ Formal verification is a mathematical approach to proving the correctness of sma
 | [Uniswap V3](https://github.com/Uniswap/v3-core) | DEX | ✅ | Isabelle/HOL based custom tool |
 | [Uniswap V4](https://github.com/Uniswap/v4-core) | DEX | [✅](https://certora.cdn.prismic.io/certora/Z4UNepbqstJ99YI5_InformedeSeguridadUniswapV4.pdf) | Certora Prover |
 | Compound V3 | Lending | [✅](https://certora.cdn.prismic.io/certora/e7ca6508-fad8-4a41-8588-b3312d8b750e_Compound+Report.pdf) | Certora Prover |
-| [DJED](https://djed.one/)  | Stablecoin | [✅](https://iohk.io/en/research/library/papers/djed-a-formally-verified-crypto-backed-pegged-algorithmic-stablecoin/) | - |
+| [DJED](https://github.com/DjedAlliance/Djed-Solidity)  | Stablecoin | [✅](https://iohk.io/en/research/library/papers/djed-a-formally-verified-crypto-backed-pegged-algorithmic-stablecoin/) | LUSTRE, Isabelle/HOL |
 
 
 ## Formal Verification Tools

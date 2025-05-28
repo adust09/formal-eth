@@ -12,7 +12,6 @@ Formal verification is a mathematical approach to proving the correctness of sma
 - [Academic Research](#academic-research)
 - [Vulnerability Detection](#vulnerability-detection)
 - [Educational Resources](#educational-resources)
-- [Tools by Category](#tools-by-category)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -70,20 +69,11 @@ Formal verification is a mathematical approach to proving the correctness of sma
 
 - **[DJED Stablecoin](https://djed.one/)** - Formally verified algorithmic stablecoin
 - **[Sarcophagus Protocol](https://sarcophagus.io/)** - Verified using Certora
-- **[Compound Protocol](https://compound.finance/)** - Partially verified money market protocol
 
 ### Layer 2 Solutions
 
 - **[Polygon Hermez](https://hermez.io/)** - ZK-rollup with formal verification components
 - **[StarkNet](https://starknet.io/)** - STARK-based rollup with mathematical proofs
-
-### Zero-Knowledge Virtual Machines (zkVMs)
-
-- **[Ethproofs](https://github.com/ethproofs/ethproofs)** - SNARKifying Ethereum with zkVM security and performance metrics
-- **[ZKSMT](https://github.com/usenix-security)** - Virtual machine for proving SMT theorems in zero knowledge
-- **[Ceno zkVM](https://github.com/scroll-tech/ceno)** - Non-uniform, segment and parallel zero-knowledge virtual machine framework
-- **[RISC Zero](https://github.com/risc0/risc0)** - General-purpose zkVM with formal verification components</search>
-</search_and_replace>
 
 ## Security Reports
 

@@ -80,20 +80,12 @@ Formal verification is a mathematical approach to proving the correctness of sma
 - **[Formal Verification of Smart Contracts](https://dl.acm.org/doi/10.1145/3243734.3243795)** - ACM survey on smart contract verification
 - **[Security Analysis of Smart Contracts](https://ieeexplore.ieee.org/document/8449446)** - IEEE paper on formal methods for smart contract security
 
-### zkVM Research Papers
-
-- **[A Parameterized Framework for the Formal Verification of Zero-Knowledge Virtual Machines](https://dl.acm.org/doi/10.1145/3658644.3690184)** - ACM SIGPLAN 2024 paper on formal verification of zkVMs in Coq
-- **[ZKSMT: A VM for Proving SMT Theorems in Zero Knowledge](https://www.usenix.org/conference/usenixsecurity24)** - USENIX Security 2024 paper on virtual machines for zero-knowledge proofs
-- **[Ceno: Non-uniform, Segment and Parallel Zero-Knowledge Virtual Machine](https://eprint.iacr.org/2024/387)** - IACR ePrint on novel zkVM framework leveraging succinct proofs
-- **[A Survey on the Applications of Zero-Knowledge Proofs](https://arxiv.org/abs/2402.04878)** - Comprehensive survey including formally verified zero-knowledge virtual machines
-
 ## Vulnerability Detection
 
 ### Specific Vulnerability Research
 
 - **[Reentrancy Verification](https://github.com/ConsenSys/mythril)** - Reentrancy attack verification using Z3 SMT solver
 - **[SmartScan](https://github.com/smartdec/smartcheck)** - Formal verification framework detecting 14 types of vulnerabilities
-- **[ERC Properties HEVM](https://github.com/dapphub/erc20-formal-verification)** - Formal verification of ERC properties using HEVM
 
 ### Common Vulnerability Patterns
 
@@ -102,53 +94,12 @@ Formal verification is a mathematical approach to proving the correctness of sma
 - **Access Control** - Permission model verification
 - **Time Dependencies** - Temporal logic verification
 
-### zkVM Security Verification
-
-- **[zkVM Constraint Verification](https://github.com/ethproofs/ethproofs)** - Security and performance metrics for zkVM implementations
-- **[Zero-Knowledge Proof Soundness](https://eprint.iacr.org/2024/387)** - Formal verification of zkVM proof systems
-- **[Circuit Satisfiability Verification](https://github.com/risc0/risc0)** - Mathematical verification of zkVM circuit constraints
-- **[Trusted Setup Verification](https://github.com/scroll-tech/ceno)** - Formal analysis of zkVM trusted setup procedures
 
 ## Educational Resources
 
 ### Tutorials and Guides
 
-- **[Formal Verification Tutorial](https://github.com/runtimeverification/verified-smart-contracts)** - Step-by-step guide to formal verification
-- **[Certora Documentation](https://docs.certora.com/)** - Comprehensive documentation for Certora Prover
-- **[K Framework Tutorial](https://github.com/kframework/k/tree/master/k-distribution/tutorial)** - Learning K for blockchain verification
-
-### Courses and Workshops
-
-- **[Formal Methods for Smart Contracts](https://www.coursera.org/learn/formal-methods)** - Online course on formal verification
-- **[Runtime Verification Workshops](https://runtimeverification.com/workshops)** - Regular workshops on formal methods
-
-## Tools by Category
-
-### Static Analysis
-- Slither
-- Securify
-- SmartCheck
-
-### Dynamic Analysis
-- Echidna
-- Harvey
-- ContractFuzzer
-
-### Symbolic Execution
-- Manticore
-- SAGE
-- KLEE
-
-### Model Checking
-- TLA+
-- CBMC
-- SPIN
-
-### Zero-Knowledge Virtual Machines
-- RISC Zero
-- Ceno zkVM
-- Ethproofs
-- Plonky2
+- TBD
 
 ## Contributing
 

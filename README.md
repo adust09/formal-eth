@@ -22,9 +22,6 @@ Formal verification is a mathematical approach to proving the correctness of sma
     - [Academic Papers](#academic-papers)
   - [Vulnerability Detection](#vulnerability-detection)
     - [Specific Vulnerability Research](#specific-vulnerability-research)
-    - [Common Vulnerability Patterns](#common-vulnerability-patterns)
-  - [Educational Resources](#educational-resources)
-    - [Tutorials and Guides](#tutorials-and-guides)
   - [Contributing](#contributing)
     - [Guidelines](#guidelines)
     - [How to Contribute](#how-to-contribute)
@@ -88,35 +85,19 @@ Formal verification is a mathematical approach to proving the correctness of sma
 ### Research Projects
 
 - **[Ethereum Formal Verification Overview](https://github.com/leonardoalt/ethereum_formal_verification_overview)** - Comprehensive overview of formal verification in the Ethereum ecosystem
-- **[EthBench](https://github.com/ucsb-seclab/ethbench)** - Formal verification benchmark for Ethereum smart contracts
-- **[Awesome Web3 Formal Verification](https://github.com/saeidshirazi/Awesome-Smart-Contract-Security-Tools)** - Curated list of Web3 formal verification resources
+- **[EthBench](https://github.com/seresistvanandras/EthBench)** - Formal verification benchmark for Ethereum smart contracts
+- **[Awesome Web3 Formal Verification](https://github.com/johnsonstephan/awesome-web3-formal-verification)** - Curated list of Web3 formal verification resources
 
 ### Academic Papers
 
-- **[A Survey of Smart Contract Formal Verification](https://arxiv.org/abs/1909.07633)** - Comprehensive survey of formal verification techniques
-- **[Formal Verification of Smart Contracts](https://dl.acm.org/doi/10.1145/3243734.3243795)** - ACM survey on smart contract verification
-- **[Security Analysis of Smart Contracts](https://ieeexplore.ieee.org/document/8449446)** - IEEE paper on formal methods for smart contract security
+- **[A Survey of Smart Contract Formal Verification](https://arxiv.org/abs/2008.02712)** - Comprehensive survey of formal verification techniques
 
 ## Vulnerability Detection
 
 ### Specific Vulnerability Research
 
-- **[Reentrancy Verification](https://github.com/ConsenSys/mythril)** - Reentrancy attack verification using Z3 SMT solver
-- **[SmartScan](https://github.com/smartdec/smartcheck)** - Formal verification framework detecting 14 types of vulnerabilities
-
-### Common Vulnerability Patterns
-
-- **Integer Overflow/Underflow** - Mathematical verification of arithmetic operations
-- **Reentrancy Attacks** - State machine verification and call graph analysis
-- **Access Control** - Permission model verification
-- **Time Dependencies** - Temporal logic verification
-
-
-## Educational Resources
-
-### Tutorials and Guides
-
-- TBD
+- **[Reentrancy Verification](https://www.mdpi.com/2079-9292/12/10/2152)** - Reentrancy attack verification using Z3 SMT solver
+- **[SmartScan](https://www.jatit.org/volumes/Vol103No3/4Vol103No3.pdf)** - Formal verification framework detecting 14 types of vulnerabilities
 
 ## Contributing
 

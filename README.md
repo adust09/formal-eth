@@ -44,6 +44,7 @@ Formal verification is a mathematical approach to proving the correctness of sma
 | Staking deposit contract | L1 | [✅](https://github.com/runtimeverification/deposit-contract-verification) | K Framework |
 | [Cairo (language)](https://github.com/starkware-libs/cairo-lang) | zkVM (language) | [✅](https://github.com/starkware-libs/formal-proofs) | Lean |
 | [Jolt](https://github.com/a16z/jolt) | zkVM | [🏗️ WIP](https://github.com/GaloisInc/zk-lean) | Lean |
+| [SP1](https://github.com/succinctlabs/sp1) | zkVM | [🏗️ WIP](https://medium.com/veridise/verifying-sp1-circuit-determinism-with-picus-a-collaboration-between-veridise-and-succinct-985c7a6dd9b5) | Picus |
 | [EIP1559](https://eips.ethereum.org/EIPS/eip-1559) | EIP | [✅](https://ieeexplore.ieee.org/document/9842730) | UPPAAL |
 | [Intmax2](https://github.com/InternetMaximalism/intmax2) | Zk Rollup | [✅](https://github.com/NethermindEth/FVIntmax) | Lean |
 

@@ -42,10 +42,10 @@ Formal verification is a mathematical approach to proving the correctness of sma
 | Casper FFG | L1 | [✅](https://github.com/runtimeverification/casper-proofs) | Rocq |
 | RANDAO | L1 | [✅](https://github.com/runtimeverification/rdao-smc) | Maude, PVeStA |
 | Staking deposit contract | L1 | [✅](https://github.com/runtimeverification/deposit-contract-verification) | K Framework |
+| [EIP1559](https://eips.ethereum.org/EIPS/eip-1559) | EIP | [✅](https://ieeexplore.ieee.org/document/9842730) | UPPAAL |
 | [Cairo (language)](https://github.com/starkware-libs/cairo-lang) | zkVM (language) | [✅](https://github.com/starkware-libs/formal-proofs) | Lean |
 | [Jolt](https://github.com/a16z/jolt) | zkVM | [🏗️ WIP](https://github.com/GaloisInc/zk-lean) | Lean |
 | [SP1](https://github.com/succinctlabs/sp1) | zkVM | [🏗️ WIP](https://medium.com/veridise/verifying-sp1-circuit-determinism-with-picus-a-collaboration-between-veridise-and-succinct-985c7a6dd9b5) | Picus |
-| [EIP1559](https://eips.ethereum.org/EIPS/eip-1559) | EIP | [✅](https://ieeexplore.ieee.org/document/9842730) | UPPAAL |
 | [Intmax2](https://github.com/InternetMaximalism/intmax2) | Zk Rollup | [✅](https://github.com/NethermindEth/FVIntmax) | Lean |
 
 ### Application
@@ -56,6 +56,7 @@ Formal verification is a mathematical approach to proving the correctness of sma
 | [Uniswap V4](https://github.com/Uniswap/v4-core) | DEX | [✅](https://certora.cdn.prismic.io/certora/Z4UNepbqstJ99YI5_InformedeSeguridadUniswapV4.pdf) | Certora Prover |
 | Compound V3 | Lending | [✅](https://certora.cdn.prismic.io/certora/e7ca6508-fad8-4a41-8588-b3312d8b750e_Compound+Report.pdf) | Certora Prover |
 | [DJED](https://github.com/DjedAlliance/Djed-Solidity)  | Stablecoin | [✅](https://iohk.io/en/research/library/papers/djed-a-formally-verified-crypto-backed-pegged-algorithmic-stablecoin/) | LUSTRE, Isabelle/HOL |
+| AMM | DEX | [✅](https://github.com/danielepusceddu/lean4-amm) | Lean |
 
 
 ## Formal Verification Tools

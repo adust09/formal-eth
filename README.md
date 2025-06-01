@@ -38,7 +38,7 @@ Formal verification is a mathematical approach to proving the correctness of sma
 
 | Name | Category | Formal Verification | Stack |
 | ---- | ---- | ---- | ---- |
-| Ethereum PoS | L1 | [✅](https://github.com/ConsenSys/eth2.0-dafny) | Dafny |
+| Ethereum PoS | L1 | [✅](https://github.com/runtimeverification/beacon-chain-verification), [✅](https://github.com/ConsenSys/eth2.0-dafny) | Rocq, Dafny |
 | Casper FFG | L1 | [✅](https://github.com/runtimeverification/casper-proofs) | Rocq |
 | RANDAO | L1 | [✅](https://github.com/runtimeverification/rdao-smc) | Maude, PVeStA |
 | Staking deposit contract | L1 | [✅](https://github.com/runtimeverification/deposit-contract-verification) | K Framework |

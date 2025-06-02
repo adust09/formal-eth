@@ -32,14 +32,14 @@ Formal verification is a mathematical approach to proving the correctness of sma
 
 | Name | Category | Formal Verification | Stack |
 | ---- | ---- | ---- | ---- |
-| KZG Commitment | Polynomial Commitment | [✅](https://github.com/tobias-rothmann/Polynomial-Commitment-Schemes) | Isabelle/HOL |
-| Merkle Tree | Vector Commitment | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib) | Lean |
-| Sumcheck | Interactive Proof | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib) | Lean |
-| FRI | Interactive Proof | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib) | Lean |
-| STIR | Interactive Proof | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib) | Lean |
-| WHIR | Interactive Proof | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib) | Lean |
-<!-- | Spartan | ... | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib) | Lean |
-| Binius | ... | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib) | Lean | -->
+| KZG Commitment | Commitment Scheme | [✅](https://github.com/tobias-rothmann/Polynomial-Commitment-Schemes) | Isabelle/HOL |
+| Merkle Tree | Commitment Scheme | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib) | Lean |
+| Binius | Commitment Scheme | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib) | Lean |
+| Sumcheck | Interactive Oracle Proof | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib) | Lean |
+| FRI | Interactive Oracle Proof | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib) | Lean |
+| STIR | Interactive Oracle Proof | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib) | Lean |
+| WHIR | Interactive Oracle Proof | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib) | Lean |
+| Spartan | Interactive Oracle Proof | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib) | Lean |
 
 ### Protocol
 

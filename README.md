@@ -53,6 +53,7 @@ Formal verification is a mathematical approach to proving the correctness of sma
 | [Cairo (language)](https://github.com/starkware-libs/cairo-lang) | zkVM (language) | [✅](https://github.com/starkware-libs/formal-proofs) | Lean |
 | [Jolt](https://github.com/a16z/jolt) | zkVM | [🏗️ WIP](https://github.com/GaloisInc/zk-lean) | Lean |
 | [SP1](https://github.com/succinctlabs/sp1) | zkVM | [🏗️ WIP](https://medium.com/veridise/verifying-sp1-circuit-determinism-with-picus-a-collaboration-between-veridise-and-succinct-985c7a6dd9b5) | Picus |
+| [RISC Zero](https://github.com/risc0/risc0) | zkVM | [🏗️ WIP](https://github.com/NethermindEth/risczero-fv) | Zirgen, Lean |
 | [Intmax2](https://github.com/InternetMaximalism/intmax2) | Zk Rollup | [✅](https://github.com/NethermindEth/FVIntmax) | Lean |
 | CBC Casper | (L1) | [✅](https://github.com/LayerXcom/cbc-casper-proof) | Isabelle/HOL |
 

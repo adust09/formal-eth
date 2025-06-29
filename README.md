@@ -75,7 +75,8 @@ Formal verification is a mathematical approach to proving the correctness of sma
 - **[Certora Prover](https://www.certora.com/)** - Advanced formal verification tool for EVM, Solana, and Stellar chains
 - **[Microsoft VeriSol](https://github.com/microsoft/verisol)** - Microsoft's formal verifier for Solidity smart contracts
 - **[K Framework (KEVM)](https://github.com/kframework/evm-semantics)** - Ethereum verification using K specifications
-- **[Coq-of-Python](https://github.com/formal-land/coq-of-python)** - Converts Ethereum's Python implementation to Coq for formal verification
+- **[Coq-of-Python](https://github.com/formal-land/coq-of-python)** - Converts Ethereum's Python implementation to Rocq(Coq) for formal verification
+- **[Act](https://github.com/ethereum/act)** - Formal specification language for Ethereum smart contracts
 
 ### Emerging Tools
 

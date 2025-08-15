@@ -64,6 +64,7 @@ Formal verification is a mathematical approach to proving the correctness of sma
 | [Uniswap V3](https://github.com/Uniswap/v3-core) | DEX | ✅ | Isabelle/HOL based custom tool |
 | [Uniswap V4](https://github.com/Uniswap/v4-core) | DEX | [✅](https://certora.cdn.prismic.io/certora/Z4UNepbqstJ99YI5_InformedeSeguridadUniswapV4.pdf) | Certora Prover |
 | Compound V3 | Lending | [✅](https://certora.cdn.prismic.io/certora/e7ca6508-fad8-4a41-8588-b3312d8b750e_Compound+Report.pdf) | Certora Prover |
+| Euler Finance V2 | Lending | [✅](https://github.com/euler-xyz/fee-flow/tree/main/formal-verification) | Certora Prover |
 | [DJED](https://github.com/DjedAlliance/Djed-Solidity)  | Stablecoin | [✅](https://iohk.io/en/research/library/papers/djed-a-formally-verified-crypto-backed-pegged-algorithmic-stablecoin/) | LUSTRE, Isabelle/HOL |
 | AMM | DEX | [✅](https://github.com/danielepusceddu/lean4-amm) | Lean |
 

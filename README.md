@@ -28,46 +28,46 @@ Formal verification is a mathematical approach to proving the correctness of sma
   - [License](#license)
 
 ## Projects
+
 ### Cryptography
 
-| Name | Category | Formal Verification | Stack |
-| ---- | ---- | ---- | ---- |
-| KZG Commitment | Commitment Scheme | [✅](https://github.com/tobias-rothmann/Polynomial-Commitment-Schemes) | Isabelle/HOL |
-| Merkle Tree | Commitment Scheme | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib) | Lean |
-| Binius | Commitment Scheme | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib) | Lean |
-| Sumcheck | Interactive Oracle Proof | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib) | Lean |
-| FRI | Interactive Oracle Proof | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib) | Lean |
-| STIR | Interactive Oracle Proof | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib) | Lean |
-| WHIR | Interactive Oracle Proof | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib) | Lean |
-| Spartan | Interactive Oracle Proof | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib) | Lean |
+| Name           | Category                 | Formal Verification                                                    | Stack        |
+| -------------- | ------------------------ | ---------------------------------------------------------------------- | ------------ |
+| KZG Commitment | Commitment Scheme        | [✅](https://github.com/tobias-rothmann/Polynomial-Commitment-Schemes) | Isabelle/HOL |
+| Merkle Tree    | Commitment Scheme        | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib)                     | Lean         |
+| Binius         | Commitment Scheme        | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib)                     | Lean         |
+| Sumcheck       | Interactive Oracle Proof | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib)                     | Lean         |
+| FRI            | Interactive Oracle Proof | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib)                     | Lean         |
+| STIR           | Interactive Oracle Proof | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib)                     | Lean         |
+| WHIR           | Interactive Oracle Proof | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib)                     | Lean         |
+| Spartan        | Interactive Oracle Proof | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib)                     | Lean         |
 
 ### Protocol
 
-| Name | Category | Formal Verification | Stack |
-| ---- | ---- | ---- | ---- |
-| Ethereum PoS | L1 | [✅](https://github.com/runtimeverification/beacon-chain-verification), [✅](https://github.com/ConsenSys/eth2.0-dafny) | Rocq, Dafny |
-| Casper FFG | L1 | [✅](https://github.com/runtimeverification/casper-proofs) | Rocq |
-| RANDAO | L1 | [✅](https://github.com/runtimeverification/rdao-smc) | Maude, PVeStA |
-| Staking deposit contract | L1 | [✅](https://github.com/runtimeverification/deposit-contract-verification) | K Framework |
-| [EIP1559](https://eips.ethereum.org/EIPS/eip-1559) | EIP | [✅](https://ieeexplore.ieee.org/document/9842730) | UPPAAL |
-| [Cairo (language)](https://github.com/starkware-libs/cairo-lang) | zkVM (language) | [✅](https://github.com/starkware-libs/formal-proofs) | Lean |
-| [Jolt](https://github.com/a16z/jolt) | zkVM | [🏗️ WIP](https://github.com/GaloisInc/zk-lean) | Lean |
-| [SP1](https://github.com/succinctlabs/sp1) | zkVM | [🏗️ WIP](https://medium.com/veridise/verifying-sp1-circuit-determinism-with-picus-a-collaboration-between-veridise-and-succinct-985c7a6dd9b5) | Picus |
-| [RISC Zero](https://github.com/risc0/risc0) | zkVM | [🏗️ WIP](https://github.com/NethermindEth/risczero-fv) | Zirgen, Lean |
-| [Intmax2](https://github.com/InternetMaximalism/intmax2) | Zk Rollup | [✅](https://github.com/NethermindEth/FVIntmax) | Lean |
-| CBC Casper | (L1) | [✅](https://github.com/LayerXcom/cbc-casper-proof) | Isabelle/HOL |
+| Name                                                             | Category        | Formal Verification                                                                                                                           | Stack         |
+| ---------------------------------------------------------------- | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| Ethereum PoS                                                     | L1              | [✅](https://github.com/runtimeverification/beacon-chain-verification), [✅](https://github.com/ConsenSys/eth2.0-dafny)                       | Rocq, Dafny   |
+| Casper FFG                                                       | L1              | [✅](https://github.com/runtimeverification/casper-proofs)                                                                                    | Rocq          |
+| RANDAO                                                           | L1              | [✅](https://github.com/runtimeverification/rdao-smc)                                                                                         | Maude, PVeStA |
+| Staking deposit contract                                         | L1              | [✅](https://github.com/runtimeverification/deposit-contract-verification)                                                                    | K Framework   |
+| [EIP1559](https://eips.ethereum.org/EIPS/eip-1559)               | EIP             | [✅](https://ieeexplore.ieee.org/document/9842730)                                                                                            | UPPAAL        |
+| [Cairo (language)](https://github.com/starkware-libs/cairo-lang) | zkVM (language) | [✅](https://github.com/starkware-libs/formal-proofs)                                                                                         | Lean          |
+| [Jolt](https://github.com/a16z/jolt)                             | zkVM            | [🏗️ WIP](https://github.com/GaloisInc/zk-lean)                                                                                                | Lean          |
+| [SP1](https://github.com/succinctlabs/sp1)                       | zkVM            | [🏗️ WIP](https://medium.com/veridise/verifying-sp1-circuit-determinism-with-picus-a-collaboration-between-veridise-and-succinct-985c7a6dd9b5) | Picus         |
+| [RISC Zero](https://github.com/risc0/risc0)                      | zkVM            | [🏗️ WIP](https://github.com/NethermindEth/risczero-fv)                                                                                        | Zirgen, Lean  |
+| [Intmax2](https://github.com/InternetMaximalism/intmax2)         | Zk Rollup       | [✅](https://github.com/NethermindEth/FVIntmax)                                                                                               | Lean          |
+| CBC Casper                                                       | (L1)            | [✅](https://github.com/LayerXcom/cbc-casper-proof)                                                                                           | Isabelle/HOL  |
 
 ### Application
 
-| Name | Category | Formal Verification | Stack |
-| ---- | ---- | ---- | ---- |
-| [Uniswap V3](https://github.com/Uniswap/v3-core) | DEX | ✅ | Isabelle/HOL based custom tool |
-| [Uniswap V4](https://github.com/Uniswap/v4-core) | DEX | [✅](https://certora.cdn.prismic.io/certora/Z4UNepbqstJ99YI5_InformedeSeguridadUniswapV4.pdf) | Certora Prover |
-| Compound V3 | Lending | [✅](https://certora.cdn.prismic.io/certora/e7ca6508-fad8-4a41-8588-b3312d8b750e_Compound+Report.pdf) | Certora Prover |
-| Euler Finance V2 | Lending | [✅](https://github.com/euler-xyz/fee-flow/tree/main/formal-verification) | Certora Prover |
-| [DJED](https://github.com/DjedAlliance/Djed-Solidity)  | Stablecoin | [✅](https://iohk.io/en/research/library/papers/djed-a-formally-verified-crypto-backed-pegged-algorithmic-stablecoin/) | LUSTRE, Isabelle/HOL |
-| AMM | DEX | [✅](https://github.com/danielepusceddu/lean4-amm) | Lean |
-
+| Name                                                  | Category   | Formal Verification                                                                                                    | Stack                          |
+| ----------------------------------------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
+| [Uniswap V3](https://github.com/Uniswap/v3-core)      | DEX        | ✅                                                                                                                     | Isabelle/HOL based custom tool |
+| [Uniswap V4](https://github.com/Uniswap/v4-core)      | DEX        | [✅](https://certora.cdn.prismic.io/certora/Z4UNepbqstJ99YI5_InformedeSeguridadUniswapV4.pdf)                          | Certora Prover                 |
+| Compound V3                                           | Lending    | [✅](https://certora.cdn.prismic.io/certora/e7ca6508-fad8-4a41-8588-b3312d8b750e_Compound+Report.pdf)                  | Certora Prover                 |
+| Euler Finance V2                                      | Lending    | [✅](https://github.com/euler-xyz/fee-flow/tree/main/formal-verification)                                              | Certora Prover                 |
+| [DJED](https://github.com/DjedAlliance/Djed-Solidity) | Stablecoin | [✅](https://iohk.io/en/research/library/papers/djed-a-formally-verified-crypto-backed-pegged-algorithmic-stablecoin/) | LUSTRE, Isabelle/HOL           |
+| AMM                                                   | DEX        | [✅](https://github.com/danielepusceddu/lean4-amm)                                                                     | Lean                           |
 
 ## Formal Verification Tools
 

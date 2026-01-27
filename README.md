@@ -37,7 +37,7 @@ Formal verification is a mathematical approach to proving the correctness of sma
 | Merkle Tree    | Commitment Scheme        | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib)                     | Lean         |
 | Binius         | Commitment Scheme        | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib)                     | Lean         |
 | Sumcheck       | Interactive Oracle Proof | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib)                     | Lean         |
-| FRI            | Interactive Oracle Proof | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib)                     | Lean         |
+| FRI            | Interactive Oracle Proof | [✅](tailored-simple-rbr-fri)                                          | Lean         |
 | STIR           | Interactive Oracle Proof | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib)                     | Lean         |
 | WHIR           | Interactive Oracle Proof | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib)                     | Lean         |
 | Spartan        | Interactive Oracle Proof | [🏗️ WIP](https://github.com/Verified-zkEVM/ArkLib)                     | Lean         |
